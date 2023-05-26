@@ -23,7 +23,7 @@ class _BottomBarScreenState extends State<BottomBarScreen> {
     {'page':  UserScreen(), 'title': 'User Screen'},
   ];
 
-  int _selectIndex = 3;
+  int _selectIndex = 0;
 
   void _selectedPage(int index) {
     setState(() {
